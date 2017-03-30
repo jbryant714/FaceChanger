@@ -155,42 +155,51 @@
                 android:layout_weight="1">
 
                 <TextView
+                    android:id="@+id/hairPrompt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/hair_prompt"
-                    android:id="@+id/hairPrompt" />
-
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/hairSpinner"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="@string/hair_prompt" />
 
                 <TextView
+                    android:id="@+id/eyePrompt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/eye_prompt"
-                    android:id="@+id/eyePrompt" />
+                    android:layout_weight="1"
+                    android:text="@string/eye_prompt" />
+
+                <TextView
+                    android:id="@+id/nosePrompt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nose_prompt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:orientation="horizontal">
 
                 <Spinner
+                    android:id="@+id/hairSpinner"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
                     android:id="@+id/eyeSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:contextClickable="false" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/nose_prompt"
-                    android:id="@+id/nosePrompt" />
-
                 <Spinner
+                    android:id="@+id/noseSpinner"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/noseSpinner"
                     android:layout_weight="1" />
-
             </LinearLayout>
 
             <LinearLayout
