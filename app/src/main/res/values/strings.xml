@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="hair_styles_array">
+        <item>Buz</item>
+        <item>Mohawk</item>
+        <item>Bun</item>
+    </string-array>
+
+    <string name="hair_prompt">Choose a hair style:</string>
+
+    <string-array name="eye_styles_array">
+        <item>Circular</item>
+        <item>Horizontal Oval</item>
+        <item>Vertical Oval</item>
+    </string-array>
+
+    <string name="eye_prompt">Choose an eye style:</string>
+
+    <string-array name="nose_styles_array">
+        <item>Triangle</item>
+        <item>Square</item>
+        <item>Oval</item>
+    </string-array>
+
+    <string name="nose_prompt">Choose a nose style:</string>
+    <string name="hair_button">Hair</string>
+    <string name="eye_button">Eye</string>
+    <string name="skin_button">Skin</string>
+    <string name="button_prompt">Choose a facial feature:</string>
+</resources>
